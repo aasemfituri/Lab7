@@ -6,7 +6,6 @@
 //   - One for activation ( check out MDN's clients.claim() for this step )
 //   - One for fetch requests
 
-/*
 let cacheList = ['https://cse110lab6.herokuapp.com/entries'];
 let CACHE_NAME = 'cache_1';
 
@@ -57,4 +56,3 @@ self.addEventListener('install', function(event) {
 self.addEventListener('activate', event => {
   event.waitUntil(clients.claim());
 });
-*/
